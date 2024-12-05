@@ -5,6 +5,8 @@ import FeedbacksHome from "@/components/feedbacks-home.component";
 import FooterHome from "@/components/footer-home.component";
 import HeaderHome from "@/components/header-home.component";
 import HeroHome from "@/components/hero-home.component";
+import PrivacyPolicy from "@/components/privacy-home.component";
+import Support from "@/components/suport-home.component";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <FeedbacksHome />
       <CtaHome />
       <FooterHome />
+      <PrivacyPolicy />
+      <Support />
     </>
   );
 }

@@ -27,7 +27,9 @@ const HeroHome = () => {
           </p>
         </div>
         <div className="flex items-center justify-center mt-10 gap-4">
-          <Button className="font-normal text-sm">Saiba mais</Button>
+          <Button className="font-normal text-sm button-primary">
+            Saiba mais
+          </Button>
           <Button variant="outline" className="font-normal text-sm">
             Entre em contato
           </Button>
