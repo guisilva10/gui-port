@@ -16,7 +16,10 @@ const HeaderHome = () => {
         className="ml-auto mr-3 text-sm font-semibold button-primary"
         size="lg"
       >
-        <Link href="">
+        <Link
+          target="_blank"
+          href="https://api.whatsapp.com/send?phone=5511916708354&text=Olá, gostaria de falar com o Guilherme, é por aqui mesmo ?"
+        >
           <PhoneForwarded className="mr-2 size-4" />
           Entrar em contato
         </Link>

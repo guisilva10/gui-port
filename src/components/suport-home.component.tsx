@@ -14,7 +14,7 @@ const Support = () => {
       transition={{ duration: 1 }}
     >
       <Link
-        href="https://w.app/JACFZI"
+        href="https://api.whatsapp.com/send?phone=5511916708354&text=Olá, gostaria de tirar uma dúvida sobre o serviço de vocês, é por aqui mesmo ?"
         target="_blank"
         className="flex items-center justify-center p-4"
       >

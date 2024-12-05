@@ -14,8 +14,8 @@ export default function Home() {
       <HeaderHome />
       <HeroHome />
       <FeaturesHome />
-      <FaqHome />
       <FeedbacksHome />
+      <FaqHome />
       <CtaHome />
       <FooterHome />
       <PrivacyPolicy />
