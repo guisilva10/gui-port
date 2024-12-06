@@ -82,14 +82,7 @@ const projects: Project[] = [
 ];
 
 const ProjectsHome = () => {
-  return (
-    <div className="px-6">
-      <h1 className="mt-2 text-3xl text-center font-bold tracking-tight sm:text-4xl">
-        Projetos desenvolvidos por nossa equipe
-      </h1>
-      <ProjectCarousel projects={projects} />
-    </div>
-  );
+  return <ProjectCarousel projects={projects} />;
 };
 
 export default ProjectsHome;
