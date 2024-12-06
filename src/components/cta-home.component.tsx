@@ -26,7 +26,7 @@ const CtaHome = () => {
         <div className="mt-8 flex items-center justify-center gap-x-6">
           <Button asChild className="button-primary font-bold">
             <Link
-              href="https://api.whatsapp.com/send?phone=5511916708354&text=Olá, vim do site, gostaria de solicitar um orçamento?"
+              href="https://api.whatsapp.com/send?phone=5511948798912&text=Olá, vim do site, gostaria de solicitar um orçamento?"
               target="_blank"
             >
               Fazer orçamento!
