@@ -59,8 +59,8 @@ const FeaturesHome = () => {
           {features.map((feature) => (
             <div key={feature.name} className="relative pl-16">
               <div className="text-base font-semibold leading-7">
-                <div className=" absolute left-0 top-0 flex size-10 items-center justify-center rounded-lg">
-                  <feature.icon className="h-6 w-6 text-primary" />
+                <div className="button-primary absolute left-0 top-0 flex size-10 items-center justify-center rounded-lg">
+                  <feature.icon className="h-6 w-6 text-white" />
                 </div>
                 {feature.name}
               </div>

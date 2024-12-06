@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const Support = () => {
   return (
     <motion.div
-      className="button-primary fixed bottom-4 right-3 z-10 flex items-center justify-center rounded-full"
+      className="button-secondary fixed bottom-4 right-3 z-10 flex items-center justify-center rounded-full"
       initial={{ opacity: 0, x: 20 }}
       whileInView={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: 20 }}

@@ -99,4 +99,30 @@ body {
 
 .button-primary {
   background: linear-gradient(135deg, #ea580c, #9a3412);
+  animation: blink 1.3s infinite alternate;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 5px #ea580c, 0 0 25px #ea580c, 0 0 50px #ea580c,
+    0 0 100px #ea580c;
+}
+
+.button-secondary {
+  background: linear-gradient(135deg, #ea580c, #9a3412);
+}
+
+.button-secondary:hover {
+  background: linear-gradient(135deg, #ea580c, #ea580c);
+}
+
+.button-primary:hover {
+  background: linear-gradient(135deg, #ea580c, #ea580c);
+}
+@keyframes blink {
+  0% {
+    box-shadow: 0 0 5px #ea580c, 0 0 25px #ea580c, 0 0 50px #ea580c,
+      0 0 100px #ea580c;
+  }
+  100% {
+    box-shadow: 0 0 5px #ea580c, 0 0 10px #ea580c, 0 0 20px #ea580c,
+      0 0 40px #ea580c;
+  }
 }

@@ -9,16 +9,16 @@ import { ChevronRight } from "lucide-react";
 const HeroHome = () => {
   return (
     <motion.section
-      className="relative flex items-center justify-center overflow-hidden p-4"
+      className="relative flex items-center justify-center  overflow-hidden p-4 h-screen"
       initial={{ opacity: 0, y: +200 }}
       whileInView={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: +200 }}
       transition={{ duration: 1 }}
     >
       <ImageContainer />
-      <div className="relative z-10 w-full items-center py-12 lg:py-20">
+      <div className="relative z-10 w-full items-center">
         <div className="text-center">
-          <h1 className="mt-8 text-3xl font-medium leading-none sm:text-6xl md:text-7xl lg:text-6xl">
+          <h1 className=" text-3xl font-medium leading-none sm:text-6xl md:text-7xl lg:text-6xl">
             Transformando ideias em:{" "}
             <span className="block text-primary font-bold">
               Realidade Digital
@@ -26,9 +26,9 @@ const HeroHome = () => {
           </h1>
 
           <p className="mx-auto mt-4 max-w-xl italic text-muted-foreground lg:text-lg">
-            Dê vida às suas ideias com a Startech. Transformamos suas visões em
-            conquistas digitais, oferecendo soluções sob medida e inovadoras
-            para o sucesso do seu negócio
+            Dê vida às suas ideias com a nossa equipe. Eu e a StarTech
+            transformamos suas visões em conquistas digitais, oferecendo
+            soluções sob medida e inovadoras para o sucesso do seu negócio
           </p>
         </div>
         <div className="flex items-center justify-center mt-10 gap-4">

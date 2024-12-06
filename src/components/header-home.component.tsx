@@ -8,12 +8,12 @@ import { Logo } from "./logo";
 
 const HeaderHome = () => {
   return (
-    <header className="hidden  lg:flex w-full items-center justify-between gap-4 p-6 px-8 bg-transparent">
+    <header className="hidden lg:flex w-full items-center justify-around gap-4 my-5 px-8 bg-transparent">
       <Logo />
 
       <Button
         asChild
-        className="ml-auto mr-3 text-sm font-semibold button-primary"
+        className="ml-auto mr-3 text-sm font-semibold button-secondary"
         size="lg"
       >
         <Link
