@@ -27,9 +27,9 @@ const CtaHome = () => {
         )}
       />
       <div className="relative isolate overflow-hidden bg-transparent px-6 py-20 text-center rounded-md sm:px-16 sm:shadow-sm">
-        <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight sm:text-4xl">
+        <h1 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight sm:text-4xl">
           Transforme Suas Ideias em Sites de Alto Impacto
-        </h2>
+        </h1>
         <h3 className="mx-auto mt-6 max-w-xl text-lg leading-8 text-muted-foreground italic">
           Precisa de um site profissional ou quer tirar dúvidas sobre marketing
           digital? Entre em contato agora e leve seu projeto ao próximo nível

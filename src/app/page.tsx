@@ -1,3 +1,4 @@
+import { AnimatedBeamHome } from "@/components/animated-beam-home.component";
 import CtaHome from "@/components/cta-home.component";
 import FaqHome from "@/components/faq-home.component";
 import FeaturesHome from "@/components/features-home.component";
@@ -7,6 +8,8 @@ import FooterHome from "@/components/footer-home.component";
 import HeroHome from "@/components/hero-home.component";
 import PrivacyPolicy from "@/components/privacy-home.component";
 import ProjectsHome from "@/components/projects-home.component";
+import { RecordsHome } from "@/components/records-home.component";
+import { ScrollbarHome } from "@/components/scrollbar-home.component";
 import Support from "@/components/suport-home.component";
 import TecnologiesHome from "@/components/tecnologies-home.component";
 import { FeedbackMarquee } from "@/components/testimonials-home.component";
@@ -33,12 +36,15 @@ export default function Home() {
       <FeaturesHome />
       <ProjectsHome />
       <TecnologiesHome />
+      <AnimatedBeamHome />
+
       <FeedbackMarquee />
       <FaqHome />
       <CtaHome />
       <FooterHome />
       <PrivacyPolicy />
       <Support />
+      <ScrollbarHome />
     </>
   );
 }
