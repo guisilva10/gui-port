@@ -30,7 +30,7 @@ const TecnologiesHome = () => {
           </span>
         </p>
       </div>
-      <div className="relative z-10 bg-background flex h-[500px] lg:w-full w-[500px]  flex-col items-center justify-center overflow-hidden rounded-lg md:shadow-xl">
+      <div className="relative z-10 bg-background flex h-[500px] w-full  flex-col items-center justify-center overflow-hidden rounded-lg md:shadow-xl">
         <AnimatedListHome />
       </div>
       <GridPattern
