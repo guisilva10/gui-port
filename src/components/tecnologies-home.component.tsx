@@ -4,10 +4,10 @@ import GridPattern from "./ui/grid-pattern";
 
 const TecnologiesHome = () => {
   return (
-    <div className="relative py-24 max-w-sm md:max-w-2xl lg:max-w-4xl gap-4 xl:max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-center">
+    <div className="relative py-24 max-w-md md:max-w-2xl lg:max-w-4xl p-6 gap-4 xl:max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-center">
       <div className=" flex items-start justify-start flex-col w-full ">
-        <h1 className="mt-2 text-3xl text-center lg:text-start font-bold tracking-tight sm:text-4xl">
-          Com o que Trabalhamos ?
+        <h1 className="mt-2 text-lg text-center lg:text-start font-bold tracking-tight sm:text-4xl">
+          Como nós Trabalhamos:
         </h1>
         <p className="mt-6 text-base  text-muted-foreground ">
           Na nossa agência, combinamos:{" "}
