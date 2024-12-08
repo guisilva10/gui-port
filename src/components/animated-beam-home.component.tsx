@@ -4,7 +4,6 @@ import React, { forwardRef, useRef } from "react";
 
 import { cn } from "@/lib/utils";
 import { AnimatedBeam } from "./ui/animated-beam";
-import Globe from "./ui/globe";
 import RetroGrid from "./ui/retro-grid";
 
 const Circle = forwardRef<
