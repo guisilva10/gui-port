@@ -24,7 +24,7 @@ const CtaHome = () => {
           com soluções personalizadas.
         </h3>
         <div className="mt-8 flex items-center justify-center gap-x-6">
-          <Button asChild className="button-primary font-bold">
+          <Button asChild className="button-primary font-bold" size="sm">
             <Link
               href="https://api.whatsapp.com/send?phone=5511948798912&text=Olá, vim do site, gostaria de solicitar um orçamento?"
               target="_blank"
@@ -32,7 +32,7 @@ const CtaHome = () => {
               Fazer orçamento!
             </Link>
           </Button>
-          <Button variant="outline" className=" font-bold">
+          <Button variant="outline" className=" font-bold" size="sm">
             <Link
               href="https://www.instagram.com/tngraphic_?igsh=MXg4bW1oYW9sMjV6cw%3D%3D"
               target="_blank"
