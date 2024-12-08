@@ -54,15 +54,6 @@ const projects: Project[] = [
   },
   {
     id: "5",
-    title: "Thaiza Nogueira",
-    description:
-      "Se estiver precisando de uma social media e web-designer, fale com a especialista Thaiza Nogueira.",
-    imageUrl: "/thaiza.png",
-    languages: ["Next", "Sass", "Typescript", "Lottie Web"],
-    projectUrl: "https://thaiza-nogueira.vercel.app",
-  },
-  {
-    id: "6",
     title: "Tech Call",
     description:
       "Agende reuniões e tenha um controle de agendamentos com o Tech Call.",
@@ -71,7 +62,7 @@ const projects: Project[] = [
     projectUrl: "https://tech-call.vercel.app",
   },
   {
-    id: "7",
+    id: "6",
     title: "Mentoria Vanguardista",
     description:
       "Entre para a mentoria vanguardista e aprenda sobre: Marketing Digital, Criação de sites, Criação de conteúdo e muito mais.",

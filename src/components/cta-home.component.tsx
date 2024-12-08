@@ -34,10 +34,10 @@ const CtaHome = () => {
           </Button>
           <Button variant="outline" className=" font-bold">
             <Link
-              href="https://www.instagram.com/agencestartech/"
+              href="https://www.instagram.com/tngraphic_?igsh=MXg4bW1oYW9sMjV6cw%3D%3D"
               target="_blank"
             >
-              Saber Mais
+              WebDesign - Thaiza Nogueira
             </Link>
           </Button>
         </div>

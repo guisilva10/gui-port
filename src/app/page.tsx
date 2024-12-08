@@ -8,10 +8,22 @@ import HeroHome from "@/components/hero-home.component";
 import PrivacyPolicy from "@/components/privacy-home.component";
 import ProjectsHome from "@/components/projects-home.component";
 import Support from "@/components/suport-home.component";
+import GridPattern from "@/components/ui/grid-pattern";
+import { cn } from "@/lib/utils";
 
 export default function Home() {
   return (
     <>
+      <GridPattern
+        width={20}
+        height={20}
+        x={-1}
+        y={-1}
+        className={cn(
+          "[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)] "
+        )}
+      />
+
       <HeroHome />
       <FeaturesHome />
       <ProjectsHome />
