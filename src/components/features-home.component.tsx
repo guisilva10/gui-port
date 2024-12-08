@@ -34,7 +34,7 @@ const FeaturesHome = () => {
   return (
     <motion.div
       id="features"
-      className="py-24 px-6"
+      className="py-24 flex items-center justify-center flex-col p-8"
       initial={{ opacity: 0, y: +200 }}
       whileInView={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: +200 }}

@@ -14,7 +14,7 @@ const CtaHome = () => {
       id="cta"
       className="mx-auto mb-20 max-w-7xl sm:px-6 lg:px-8"
     >
-      <div className="relative isolate overflow-hidden px-6 py-20 text-center rounded-md sm:px-16 sm:shadow-sm">
+      <div className="relative isolate overflow-hidden bg-transparent px-6 py-20 text-center rounded-md sm:px-16 sm:shadow-sm">
         <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight sm:text-4xl">
           Transforme Suas Ideias em Sites de Alto Impacto
         </h2>

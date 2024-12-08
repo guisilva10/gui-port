@@ -1,5 +1,7 @@
 import { Project } from "@/app/types";
 import { ProjectCarousel } from "./project-carousel-home.component";
+import { cn } from "@/lib/utils";
+import GridPattern from "./ui/grid-pattern";
 
 const projects: Project[] = [
   {
@@ -73,7 +75,27 @@ const projects: Project[] = [
 ];
 
 const ProjectsHome = () => {
-  return <ProjectCarousel projects={projects} />;
+  return (
+    <div className="relative flex items-center justify-center flex-col py-24">
+      <h1 className="mt-2 text-3xl text-center lg:text-start font-bold tracking-tight sm:text-4xl">
+        O que nós já fizemos ?
+      </h1>
+      <p className="font-semibold leading-7 text-primary">
+        Confira alguns projetos reais.
+      </p>
+      <GridPattern
+        width={30}
+        height={30}
+        x={-1}
+        y={-1}
+        strokeDasharray={"4 2"}
+        className={cn(
+          "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]"
+        )}
+      />
+      <ProjectCarousel projects={projects} />
+    </div>
+  );
 };
 
 export default ProjectsHome;

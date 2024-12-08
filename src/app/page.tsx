@@ -1,14 +1,18 @@
 import CtaHome from "@/components/cta-home.component";
 import FaqHome from "@/components/faq-home.component";
 import FeaturesHome from "@/components/features-home.component";
-import FeedbacksHome from "@/components/feedbacks-home.component";
+
 import FooterHome from "@/components/footer-home.component";
 
 import HeroHome from "@/components/hero-home.component";
 import PrivacyPolicy from "@/components/privacy-home.component";
 import ProjectsHome from "@/components/projects-home.component";
 import Support from "@/components/suport-home.component";
+import TecnologiesHome from "@/components/tecnologies-home.component";
+import { FeedbackMarquee } from "@/components/testimonials-home.component";
+
 import GridPattern from "@/components/ui/grid-pattern";
+
 import { cn } from "@/lib/utils";
 
 export default function Home() {
@@ -27,7 +31,8 @@ export default function Home() {
       <HeroHome />
       <FeaturesHome />
       <ProjectsHome />
-      <FeedbacksHome />
+      <TecnologiesHome />
+      <FeedbackMarquee />
       <FaqHome />
       <CtaHome />
       <FooterHome />
