@@ -3,7 +3,8 @@
 import { motion } from "framer-motion";
 import { Button } from "./ui/button";
 import Link from "next/link";
-import RetroGrid from "./ui/retro-grid";
+import { cn } from "@/lib/utils";
+import GridPattern from "./ui/grid-pattern";
 
 const CtaHome = () => {
   return (
@@ -15,6 +16,16 @@ const CtaHome = () => {
       id="cta"
       className=" relative mx-auto mb-20 max-w-7xl sm:px-6 lg:px-8"
     >
+      <GridPattern
+        width={30}
+        height={30}
+        x={-1}
+        y={-1}
+        strokeDasharray={"4 2"}
+        className={cn(
+          "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]"
+        )}
+      />
       <div className="relative isolate overflow-hidden bg-transparent px-6 py-20 text-center rounded-md sm:px-16 sm:shadow-sm">
         <h2 className="mx-auto max-w-2xl text-3xl font-bold tracking-tight sm:text-4xl">
           Transforme Suas Ideias em Sites de Alto Impacto

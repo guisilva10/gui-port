@@ -12,6 +12,7 @@ import TecnologiesHome from "@/components/tecnologies-home.component";
 import { FeedbackMarquee } from "@/components/testimonials-home.component";
 
 import GridPattern from "@/components/ui/grid-pattern";
+import RetroGrid from "@/components/ui/retro-grid";
 
 import { cn } from "@/lib/utils";
 

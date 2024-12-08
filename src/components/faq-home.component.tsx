@@ -7,7 +7,6 @@ import {
   AccordionTrigger,
 } from "./ui/accordion";
 import { motion } from "framer-motion";
-import RetroGrid from "./ui/retro-grid";
 
 const FaqHome = () => {
   return (
@@ -15,7 +14,6 @@ const FaqHome = () => {
       className="relative flex w-full flex-col items-center justify-center py-12 md:py-18 lg:py-32"
       id="faq"
     >
-      <RetroGrid />
       <h2 className="mb-12 text-center text-3xl font-bold tracking-tighter sm:text-4xl">
         Dúvidas Frequentes
       </h2>
